@@ -21,6 +21,10 @@ function isJavaScriptFile(fileName){
    
 }
 
+function name(firstName){
+  return "hello" + firstName;
+}
+
 function isBestFriend(objectOne, objectTwo) {
     if (
       objectOne.name == objectTwo.friend &&
